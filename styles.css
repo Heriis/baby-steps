@@ -54,6 +54,14 @@
 .hole__left{left:25px;}
 .hole__right{right:25px;}
 
-div:hover .pupil{transition:transform 0.1s ease-in;
-    transform:scale(2.0);}
+.head:hover{
+    transform: translate(20px);
+    transform: translate(-20px);
+    animation-iteration-count: infinite;
+    }
+
+div:hover .pupil{
+    transition:transform 0.1s ease-in;
+    transform:scale(2.0);
+    }
 
